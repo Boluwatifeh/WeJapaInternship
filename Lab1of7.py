@@ -6,9 +6,6 @@ family_name = "Pitt"
 
 full_name = given_name + middle_names + family_name
 name_length = len(full_name)
-print(name_length)
-
-
 #todo: calculate how long this name is
 # Now we check to make sure that the name fits within the driving license character limit
 # Nothing you need to do here
