@@ -15,4 +15,4 @@ for item, count in basket_items.items():
 #if the key is in the list of fruits, add the value (number of fruits) to result
 
 
-print(result)
+print('Number of fruits in the basket is: {}'.format(result))
