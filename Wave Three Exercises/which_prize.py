@@ -11,6 +11,10 @@
 #In your if statement, assign the result variable to a string holding the appropriate message based on the value of points. If they've won a prize, the message should state "Congratulations! You won a [prize name]!" with the prize name. If there's no prize, the message should state "Oh dear, no prize this time."
 
 #Note: Feel free to test run your code with other inputs, but when you submit your answer, only use the original input of points = 174. You can hide your other inputs by commenting them out.
+
+points = 174  # use this input to make your submission
+
+# write your if statement here
 if points <= 50:
     result = 'Congratulations! You won a wooden rabbit!'
 elif points <= 150:
@@ -19,10 +23,5 @@ elif points <= 180:
     result = 'Congratulations! You won a wafer-thin mint!'
 else:
     result = 'Oh dear, no prize this time.'
-
-points = 174  # use this input to make your submission
-
-# write your if statement here
-
 
 print(result)
