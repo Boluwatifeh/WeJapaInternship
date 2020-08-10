@@ -14,7 +14,7 @@ for year, director_list in nominated.items():
         if director not in nom_count_dict:
             nom_count_dict[director] = 1
         else:
-            nom_count_dict[director] = +1     
+            nom_count_dict[director] = +1
 
 
 print("nom_count_dict = {}\n".format(nom_count_dict))
@@ -23,6 +23,9 @@ print("nom_count_dict = {}\n".format(nom_count_dict))
 ### 1B: Create dictionary with the count of Oscar wins for each director
 win_count_dict = {}
 # Add your code here
+for year, winners_list in winners.items():
+    for winner in winners_list:
+        win_count_dict[winner] = win_count_dict.get(winner, 0) + 1
 
 
 
